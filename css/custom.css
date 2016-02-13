@@ -1,0 +1,19 @@
+.error{
+	color: #FF9494;
+}
+.page-header{
+    background-color: #dff0d8;
+    margin-top: 0px;
+    min-height: 50px;
+    padding-top: 10px;
+    color: white;
+}
+a{
+    color: #3c763d;
+}
+a:hover{
+    color: coral;
+}
+li:hover{
+    color: coral;
+}

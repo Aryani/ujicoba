@@ -1,0 +1,117 @@
+<!-- HEADER AWAL -->
+	<div class="page-header" style="margin-top:0px;">
+		<h1 align="center" data-toggle="tooltip" data-placement="right" title="Sistem KRS Online UMS">
+            Sistem KRS Online
+            <img src="image/logoums.png" style="height:35px;width:35px;">
+            <small>Universitas Muhammadiyah Surakarta</small>
+        </h1>
+	</div>
+	<!-- HEADER AKHIR -->
+
+	<div class="container" style="padding-top:20px;">
+
+	<!-- BAGIAN KIRI AWAL-->
+        
+	<div class="col-md-3">
+        <ul class="nav nav-pills nav-stacked">
+		<li>
+            <a href="" ng-click="" data-toggle="tooltip" data-placement="right" title="KRS" style="color: #3c763d;">
+                KRS
+            </a>
+        </li>
+        <li>
+            <a href="" ng-click="" data-toggle="tooltip" data-placement="right" title="Tambah Mata Kuliah" style="color: #3c763d;">
+                TAMBAH MATA KULIAH
+            </a>
+        </li>
+		<li>
+            <a href="" ng-click="" data-toggle="tooltip" data-placement="right" title="Ubah Password" style="color: #3c763d;">
+                UBAH PASSWORD
+            </a>
+        </li>
+		<li>
+            <a href="#" ng-click="logout()" data-toggle="tooltip" data-placement="right" title="Logout" style="color: #3c763d;">
+                LOGOUT
+            </a>
+        </li>
+        </ul>
+	</div>
+	<!-- BAGIAN KIRI AKHIR -->
+
+	<!-- DATA DIRI MAHASISWA AWAL -->
+	<div class="col-md-9">        
+		<div class="panel panel-success">
+        <div class="panel-heading">
+            <div class="panel-title" style="font-family:'Calibri'; font-size: 24px;">
+                {{user.name}}
+            </div>
+        </div>
+        <div class="panel-body">
+		<table class="table table-hover col-md-12" border="0px">
+			<tr>
+				<td width="20%">NIM</td>
+				<td width="2%">:</td>
+				<td>{{user.username}}</td>
+			</tr>
+			<tr>
+				<td>Jurusan</td>
+				<td>:</td>
+				<td>{{user.prodi}}</td>
+			</tr>
+			<tr>
+				<td>Fakultas</td>
+				<td>:</td>
+				<td>{{user.fakultas}}</td>
+			</tr>
+			<tr>
+				<td>IP Semester</td>
+				<td>:</td>
+				<td>{{user.ips}}</td>
+			</tr>
+			<tr>
+				<td>SKS Maksimum</td>
+				<td>:</td>
+				<td></td>
+			</tr>
+		</table>
+        </div>  
+	</div>
+	<!-- DATA DIRI MAHASISWA AKHIR -->
+    
+    <!-- DAFTAR KRS YANG DIAMBIL AWAL -->
+    <div class="row col-lg-12 col-md-12" ng-hide="">
+        <table class="table table-striped col-md-12">
+            <thead>
+                <th>No</th>
+                <th>Kode</th>
+                <th>Mata Kuliah</th>
+                <th>Semester</th>
+                <th>SKS</th>
+                <th>Kelas</th>
+                <th>Pilihan</th>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>    
+    </div>
+        
+    <!-- DAFTAR KRS YANG DIAMBIL AKHIR -->
+
+    <!-- KONTEN YANG BERUBAH-UBAH AWAL -->
+    
+    <!-- TAMBAH MATA KULIAH AWAL -->
+        
+    <!-- TAMBAH MATA KULIAH AKHIR -->
+        
+    <!-- UBAH PASSWORD AWAL -->
+    <!-- UBAH PASSWORD AKHIR -->
+    
+
+    <!-- KONTEN YANG BERUBAH-UBAH AKHIR -->
+    </div>
+        
+
+	<!-- FOOTER AWAL -->
+	<footer>
+	</footer>
+	<!-- FOOTER AKHIR -->
